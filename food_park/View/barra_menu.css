@@ -1,0 +1,44 @@
+.column{
+    width: 100%;
+    height: 8vh;
+    background-color: #F6A828;
+    display: flex;
+    padding: 20px;
+    justify-content:space-between;
+    color: #00305B;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+    margin-bottom: 141px;
+    padding-top: 100px;
+  
+    
+
+}
+
+.lateral{
+    width: 20%;
+    height: 100%;
+    background-color: #F6A828;
+    display: flex;
+    padding: 20px;
+    justify-content:space-between;
+    color: #00305B;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+    
+}
+.lateral a {
+    text-decoration: none;
+    color: #00305B;
+
+}
+
+
+
+.box{
+    margin-top: 50px;
+}
+
+

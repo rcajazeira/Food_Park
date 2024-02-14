@@ -1,0 +1,807 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+
+
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+
+
+
+
+.lanche  {
+    background-image: url(imagens_parte/pastel.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 95%;
+    height: 950px;
+    position: relative;
+    display: flex;    grid-template-columns: repeat(4, 90px);
+    gap: 85px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 45px;
+    
+}
+
+
+.lanche img:hover {
+    padding: -50px;
+    border-radius: 800px;
+}
+
+
+
+.lanche_2  {
+    background-image: url(imagens_parte/italiano.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 95%;
+    height: 950px;
+    position: relative;
+    display: flex;  
+  grid-template-columns: repeat(4, 90px);
+    gap: 85px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 45px;
+    
+    
+}
+
+.caixa {
+    margin: 10px;
+}
+
+.lanche_3 {
+    background-image: url(View/imagens_parte/mexicano.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 95%;
+    height: 950px;
+    position: relative;
+    display: flex;    grid-template-columns: repeat(4, 90px);
+    gap: 85px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 45px;
+    
+    
+}
+
+
+.lanche_4 {
+    background-image: url(imagens_parte/imgLanche.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 95%;
+    height: 950px;
+    position: relative;
+    display: flex;
+    grid-template-columns: repeat(4, 90px);
+    gap: 85px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 45px;
+    align-items: center;
+    
+    
+}
+
+
+.lanche_hamburguer{
+    background-image: url(View/imagens_parte/hambuguer.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 95%;
+    height: 950px;
+    position: relative;
+    display: flex;
+    grid-template-columns: repeat(4, 90px);
+    gap: 85px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 45px;
+    align-items: center;
+    
+}
+
+.lanche_6{
+    background-image: url(imagens_parte/Coxinha.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 95%;
+    height: 950px;
+    position: relative;
+    display: flex;    grid-template-columns: repeat(4, 90px);
+    gap: 85px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 45px;
+    
+}
+
+.lanche_7{
+    background-image: url(imagens_parte/acai.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 95%;
+    height: 950px;
+    position: relative;
+    display: flex;    grid-template-columns: repeat(4, 90px);
+    gap: 85px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 45px;
+    
+    
+}
+
+.lanche_8{
+    background-image: url(imagens_parte/espagete.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 95%;
+    height: 950px;
+    position: relative;
+    display: flex;    grid-template-columns: repeat(4, 90px);
+    gap: 85px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 45px;
+    
+    
+}
+.lanche_pizza{
+    background-image: url(View/imagens_parte/pizza.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 95%;
+    height: 950px;
+    position: relative;
+    display: flex;    grid-template-columns: repeat(4, 90px);
+    gap: 85px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 45px;
+    
+    
+}
+
+.lanche-coxinha{
+    background-image: url(View/imagens_parte/coxinhaa.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 95%;
+    height: 950px;
+    position: relative;
+    display: flex;
+    grid-template-columns: repeat(4, 90px);
+    gap: 85px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 45px;
+    align-items: center;
+    
+    
+}
+
+.lanche_crepe{
+    background-image: url(View/imagens_parte/crepe.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 95%;
+    height: 950px;
+    position: relative;
+    display: flex;    grid-template-columns: repeat(4, 90px);
+    gap: 85px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 45px;
+    
+}
+
+.lanche_oriental{
+    background-image: url(View/imagens_parte/Lanche_japones.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 95%;
+    height: 950px;
+    position: relative;
+    display: flex;    grid-template-columns: repeat(4, 90px);
+    gap: 85px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 45px;
+    
+}
+
+.lanche_churrasco{
+    background-image: url(View/imagens_parte/churrasco.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 95%;
+    height: 950px;
+    position: relative;
+    display: flex;    grid-template-columns: repeat(4, 90px);
+    gap: 85px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 45px;
+    
+}
+
+.lanche_feijoada{
+    background-image: url(View/imagens_parte/feijoada.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 95%;
+    height: 950px;
+    position: relative;
+    display: flex;    grid-template-columns: repeat(4, 90px);
+    gap: 85px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 45px;
+    
+}
+
+
+.lanche_bauru{
+    background-image: url(View/imagens_parte/Bauru.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 95%;
+    height: 950px;
+    position: relative;
+    display: flex;    grid-template-columns: repeat(4, 90px);
+    gap: 85px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 45px;
+    
+}
+
+.lanche_acai{
+    background-image: url(View/imagens_parte/acai.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 95%;
+    height: 950px;
+    position: relative;
+    display: flex;
+    grid-template-columns: repeat(4, 90px);
+    gap: 85px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 45px;
+    
+    
+}
+
+
+
+
+
+
+
+.lanche_pastel{
+    background-image: url(View/imagens_parte/pastel.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 95%;
+    height: 950px;
+    position: relative;
+    display: flex;
+    grid-template-columns: repeat(4, 90px);
+    gap: 85px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 45px;
+    
+}
+
+
+
+.lanche_italiano{
+    background-image: url(View/imagens_parte/italiano.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 95%;
+    height: 950px;
+    position: relative;
+    display: flex;
+    grid-template-columns: repeat(4, 90px);
+    gap: 85px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 45px;
+    
+}
+
+
+
+
+
+
+
+.lanche_hotDog { 
+    background-image: url(View/imagens_parte/hot-dog.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 95%;
+    height: 950px;
+    position: relative;
+    display: flex;    grid-template-columns: repeat(4, 90px);
+    gap: 85px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 45px;
+    
+}
+
+
+.caixa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    height: auto;
+    margin-bottom: 10px;
+   
+}
+
+.caixa2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    height: auto;
+    margin-bottom: 10px;
+    
+   
+}
+
+
+.caixa3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    height: auto;
+    margin-bottom: 10px;
+   
+}
+
+.caixa4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    height: auto;
+    margin-bottom: 10px;
+   
+}
+
+.caixa5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    height: auto;
+    margin-bottom: 10px;
+   
+}
+
+
+.caixa6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    height: auto;
+    margin-bottom: 10px;
+   
+}
+
+.caixa7{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    height: auto;
+    margin-bottom: 10px;
+   
+}
+
+
+.passeio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    height: auto;
+    margin-bottom: 10px;
+   
+}
+
+.estrutura{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    height: auto;
+   
+}
+
+
+
+.passeio-virtual{
+    /* background-image: url(imagens_parte/passeio.jpg); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 95%;
+    height: 900px;
+    display: block;
+    grid-template-columns: repeat(4, 90px);
+    border-radius: 45px;
+    padding-top: 5px;
+    background-color: #fff;
+    width: 90%;
+    height: 900px;
+    border-radius: 45px;
+    margin: 15px 0;
+    
+}
+
+
+.passeio-virtual p {
+    margin-top: 7%;
+    text-align: justify;
+    justify-content: center;
+    width: 70%;
+    margin-left: 15%;
+    font-size: 20px;
+
+}
+
+/* .passeio-estrutura{
+    /* background-image: url(imagens_parte/estrutura.png); */
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size:auto;
+    width: 95%;
+    height: 2400px;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    
+} */
+
+.estrutura{
+    height: 2000px ;
+    width: 79%;
+    margin-left: 15%;
+    background-color: #fff;
+    border-radius: 45px;
+    
+
+}
+
+.subtitulo{
+    font-family: "Monserrat", sans-serif;
+    color: #00305B;
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 80px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;800&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Monserrat", sans-serif;
+}
+
+body {
+background-color: #c9c9c9;
+height: 100vh;
+}
+
+header{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,48,91,1) 35%, rgba(0,128,200,1) 100%);
+    display: flex;
+    align-items: center;
+    padding: 10px 40px;
+    justify-content: space-between;
+    /* position: fixed; */
+    width: 100%;
+    top: 0;
+    height: 150px;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+  
+}
+.container_logo{
+display: flex;
+align-items: center;
+gap: 33px;
+cursor: pointer;
+}
+.logo1{
+width:80px;
+height: 110px;
+margin-left: 20px;
+}
+
+.logo2{
+width: 134px;
+height: 136px;
+margin-right: 40px;
+}
+
+header h1{
+color: #fff;
+text-transform: uppercase;
+font-size: 60px;
+font-weight: lighter;
+}
+
+.foodpark{
+  margin: center;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 120%;   
+}
+
+/* #foodpark{
+    font-size: 60px;
+    font-weight: bolder;
+} */
+.tc {
+  /* height:1080px; */
+  height: 60px;
+  width: 18%;
+  background-color: #fbab18;
+  font-size: 15px;
+  text-align: center;
+  color: #00305B;
+  font-weight: 900;
+  font-size: x-large;
+  float: left;
+  padding: 15px 0;
+  margin-block: auto;
+  z-index: 2;
+  
+  
+}
+
+.rs {
+  display: flex;
+  height: 60px;
+  width: 18%;
+  background-color: #fbab18;
+  text-align: center;
+  color: #00305B;
+  /* font-weight: 900;
+  font-size: x-large; */
+  float: right;
+  margin-block: auto;
+  padding: 15px 0;
+  
+    
+
+}
+
+.rs a{
+  margin-top: 20px;
+  margin-right: 5px;
+}
+
+.h4{
+  height: 60px;
+  width:64%;
+  margin: 0 auto;
+  color: #00305B;
+  background-color: #fbab18;
+  text-align: center;
+  margin-inline: center;
+  font-weight: 400;
+  font-size: x-large;
+  float: center;
+  /* height: 60px; */
+  margin-block: auto;
+  padding: 15px 0;
+}
+
+.rs{
+  padding: 0px 88px;
+  }
+  .rs a{
+  margin-left: 30px;
+  width: 20px;
+  }
+  .rs a i{
+    color: #00305B;
+  }
+  .rs a i:hover{
+    color: white;
+  }
+
+  #area-logo, #area-menu{
+    padding: 10px;
+    border-radius: 30px;
+    }
+    
+  #area-principal{
+    width: 100%;
+    height: auto;
+    background-color: #E9E9E9;
+   
+  }
+
+    #area-principal img{
+        width: 0 auto;
+        /* display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center; */
+        margin-left: 40px;
+        float: center;
+        
+    }
+
+ #lanche {
+  margin-top: 50px;
+  
+ }
+
+ #lanche img {
+  border-radius: 50px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+ }
+
+footer{
+  margin-top: 30px;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,48,91,1) 35%, rgba(0,128,200,1) 100%);
+  display: flex;
+  align-items: center;
+  padding: 10px 40px;
+  justify-content: flex-start;
+  color: white;
+  text-decoration: none;
+  height: 250px;
+  position: static;
+  bottom: 0;
+  width: 100%;
+  z-index: 20;
+}
+.footer_text{
+  margin-left: 40px;
+  text-decoration: none;
+}
+.footer_text a{
+   text-decoration: none;
+   color: white;
+}
+.footer_text a:hover{
+  text-decoration: none;
+  color: #F6A828;
+}
+
+section {
+  width:88%;
+    height: 100%;
+    margin-left: 10%;
+    z-index: -3;
+}
+
+.fixagem-area {  
+  width: 100%;
+  height: 100vh;
+  z-index: 10;  
+}
+
+.como-chegar {
+  background-color: white;
+  width: 79%;
+  height: 800px;
+  overflow: hidden;
+  border-radius: 45px;
+  margin-left: 15%;
+  margin-top: 40px;
+  position: static;
+  
+}
+
+.titulo_local {
+  color: #00305B;
+  text-align: center;
+  font-size: 52px;
+  font-weight: bolder;
+  padding-top: 20px;
+  margin-left: 77px;
+
+}
+
+
+.area-locais {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 20px;
+  gap: 50px;
+  
+}
+
+
+.text-map {
+  text-align: center;
+  color: #00305B;
+   font-size: 18px;
+   font-weight: bolder;
+     z-index: 12; 
+
+}
+
+.video-local, .mapa{
+  z-index: 12; 
+}
+
+.video-local iframe{
+  border: solid 4px #CECACA;
+  border-radius: 35px;
+  padding: 10px;
+  cursor: pointer;
+ 
+}
+.mapa iframe  {
+  border-radius: 35px;
+  padding: 10px;
+  cursor: pointer;
+  
+
+}
+
+.text-final {
+  text-align: center;
+  margin-left: 50px;
+  color: #00305B;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-top: 15px;
+}

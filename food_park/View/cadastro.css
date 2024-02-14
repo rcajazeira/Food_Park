@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Monserrat", sans-serif;
+  }
+  body {
+  background-color: #c9c9c9;
+  }
+  header{
+      background: rgb(2,0,36);
+      background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,48,91,1) 35%, rgba(0,128,200,1) 100%);
+      display: flex;
+      align-items: center;
+      padding: 10px 40px;
+      justify-content: space-between;
+      /* position: fixed; */
+      width: 100%;
+      height: 150px;
+      box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+  }
+  .container_logo{
+  display: flex;
+  align-items: center;
+  gap: 33px;
+  cursor: pointer;
+  }
+  .logo1{
+  width: 96px;
+  height: 109px;
+  }
+  
+  .logo2{
+  width: 132px;
+  height: 134px;
+  }
+  
+  header h1{
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 60px;
+  font-weight: lighter;
+  }
+  #foodpark{
+      font-size: 60px;
+      font-weight: bolder;
+  }
+  .redes_sociais{
+  padding: 0px 40px;
+  }
+  .redes_sociais a{
+  margin-left: 20px;
+  width: 50px;
+  }
+  .redes_sociais a i{
+    color: #00305B;
+  }
+  .redes_sociais a i:hover{
+    color: white;
+  }
+  
+  .container_barras1{
+  display: flex;
+  align-items: center;
+  }
+  .barra_cima{
+  width: 100%;
+  height: 8vh;
+  background-color: #F6A828;
+  display: flex;
+  padding: 20px;
+  justify-content:space-between;
+  color: #00305B;
+  font-size: 20px;
+  font-weight: bold;
+  align-items: center;
+  }
+  footer{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,48,91,1) 35%, rgba(0,128,200,1) 100%);
+    display: flex;
+    align-items: center;
+    padding: 10px 40px;
+    justify-content: flex-start;
+    color: white;
+    text-decoration: none;
+    height: 150px;
+  }
+  .footer_text{
+    margin-left: 40px;
+    text-decoration: none;
+  }
+  .footer_text a{
+     text-decoration: none;
+     color: white;
+  }
+  .footer_text a:hover{
+    text-decoration: none;
+    color: #F6A828;
+  }
+
+  main {
+    max-width: 956;
+    height: 600px;
+    background-color: #c9c9c9;
+    
+  }
+  .formulario-cadastro {
+    margin: 20px;
+  }
+
+  /* .titulo-login{
+    
+
+    
+  
+    
+   
+  } */
+  .no-meio{
+  padding: 100px;
+  text-align: center;
+
+  }
+  
+  .label {
+    font-size: 20px;
+  }
+  .botao{
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #3498db;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+
+  
+    
+
